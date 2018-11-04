@@ -1,0 +1,12 @@
+
+# service
+service-name: "dmi-blog-api"
+
+aws-region: "us-east-1"
+stage: "dev"
+# dynamodb
+
+blogs-table-rcu: 10
+blogs-table-wcu: 10
+blogs-table-gsi-blog-category-rcu: 5
+blogs-table-gsi-blog-category-wcu: 5
