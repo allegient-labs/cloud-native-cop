@@ -164,7 +164,7 @@ resources:
                 "version" : "2017-02-28",
                 "operation" : "Scan"
             }
-        ResponseMappingTemplate: $util.toJson($context.result)
+        ResponseMappingTemplate: $util.toJson($context.result.items)
 
   
     CreateBlogResolver: 
@@ -188,7 +188,7 @@ resources:
               "version": "2017-02-28",
               "operation": "PutItem",
               "key": {
-                "id": $util.dynamodb.toDynamoDBJson($ctx.args.id),
+                "id": $util.dynamodb.toDynamoDBJson($util.autoId()),
               },
               "attributeValues": $util.dynamodb.toMapValuesJson($ctx.args),
               "condition": {
