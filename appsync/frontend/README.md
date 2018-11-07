@@ -3,7 +3,7 @@ ____
 ## Clone project
 `git clone https://github.com/allegient-labs/cloud-native-cop.git`	
 ## Build backend service first 
-Follow [here](../node-backend/README.md) for Node backend and [here](../java-backend/README.md) for Java backend
+
 ## Open angular-frontend	
 `cd cloud-native-cop/angular-frontend`
 ## Install dependencies 
