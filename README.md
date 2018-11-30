@@ -8,7 +8,7 @@ ____
 
 #### Install Git [here](https://git-scm.com/downloads)
 
-- Verify that the Git installed correctly by running `git --version`
+- Verify that the Git has been installed correctly by running `git --version`
 
 #### Create Heroku Account [here](https://id.heroku.com/login)
 
@@ -22,7 +22,7 @@ ____
 #### Node.js
 
 - **node.js** for developing our sample demo application , install nodejs [here](https://nodejs.org/en/download/)
-- Verify the install version by running `node -v`
+- Verify the installed version by running `node -v`
 
 #### Swagger
 
