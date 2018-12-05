@@ -36,4 +36,5 @@ ____
 ____
 During the Demo we would be using some of the add-on which are free but to start using the free version heroku need to validate the user.
 Please go under your heroku account settings -> billing section and try to add any Credit card information.
+
 I Promise you will not be charged for any add-ons we use during the demo :) 
